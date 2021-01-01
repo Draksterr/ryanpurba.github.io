@@ -1,0 +1,199 @@
+
+
+body {
+    padding:0;
+    margin:0;
+    background-color: cyan;
+    font-family: unset;
+}
+
+
+
+
+
+header {
+    background-color: aqua;
+    padding : 20px;
+}
+
+
+
+
+
+
+section {
+    background-color: aqua;
+    padding : 200px;
+    display:flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+footer {
+    background-color: aqua;
+    padding: 10px;
+    position: fixed;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    bottom: 0pt;
+}
+
+
+
+
+
+
+
+
+
+div {
+    margin:auto;
+    text-align: center;
+    font-size: 130%;
+}
+
+ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+
+}
+nav ul li a {
+    color:orangered;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    color:orangered;
+}
+nav ul li a:hover {
+    color:white;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+nav ul li {
+
+    display:inline-block;
+    margin-right: 10px;
+    margin-left:10px;
+    
+}
+
+.logo a{
+    width:300px;
+    height: 60px;
+    margin-right:900px;
+    text-indent: -999999999px;
+    background-image: url("foto/Draskterr\ Logo.png");
+    background-size: 280px;
+    background-repeat: no-repeat;
+    display:inline-block;
+}
+
+.fotos {
+    background-color: aqua;
+    padding : 100px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.fotos div {
+    margin:auto;
+    width:200px;
+    text-align: center;
+}
+.fotos div img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: gray 0 0 10px;
+}
+
+pre {
+    background-color: aqua;
+    margin:0px;
+    font-size: 130%;
+    text-align: center;
+    color: black;
+}
+
+
+.gamers {
+    background-color: aqua;
+    padding : 100px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+.gamers figure {
+    margin:auto;
+    width:200px;
+    text-align: center;
+    font-size: 140%;
+}
+.gamers figure img {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+}
+
+
+.videos {
+    background-color: aqua;
+    padding : 100px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+.videos figure {
+    margin:auto;
+    width:200px;
+    text-align: center;
+    font-size: 140%;
+}
+.videos figure img {
+    width: 300px;
+    box-shadow: gray 0 0 10px;
+}
+
+p {
+    background-color: aqua;
+    margin:0px;
+    font-size: 130%;
+    text-align: center;
+    color: black;
+}
+figcaption {
+    text-align: center;
+}
+
+
+
+.logos {
+    background-color: aqua;
+    padding : 100px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+.Logos div {
+    margin:auto;
+    width:200px;
+    text-align: center;
+}
+.logos div img {
+    width: 200px;
+    box-shadow: gray 0 0 10px;
+    border-radius: 50%;
+}
